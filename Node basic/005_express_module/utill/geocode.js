@@ -9,12 +9,12 @@ axios.get(`https://api.opencagedata.com/geocode/v1/json?q=${city}&key=2260aa7118
     var lng = dt.lng
    
     callback({lat:lat,lng:lng})
-    console.log(`
+    // console.log(`
     
-    LAT : ${lat}
-    LNG : ${lng}
+    // LAT : ${lat}
+    // LNG : ${lng}
 
-    `);
+    // `);
 
 }).catch(err=>{
     callback(undefined,err)
