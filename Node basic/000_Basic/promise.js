@@ -29,14 +29,14 @@ function stInfo(id)
         
 }
 
-// getst(10).then(data=>{
-//     console.log(data);
-//     return stInfo(data)
-// }).then(result=>{
-//     console.log(result);
-// }).catch(err=>{
-//     console.log(err);
-// })
+getst(10).then(data=>{
+    console.log(data);
+    return stInfo(data)
+}).then(result=>{
+    console.log(result);
+}).catch(err=>{
+    console.log(err);
+})
 
 
 

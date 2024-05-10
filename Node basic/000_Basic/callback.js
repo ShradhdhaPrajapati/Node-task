@@ -1,23 +1,23 @@
 
 
-// function add(a,b,result){
-//     result(10+20)
-// }
+function add(a,b,result){
+    result(10+20)
+}
 
 
-// add(10,20,(data)=>{
-//     console.log(data);
-// })/
+add(10,20,(data)=>{
+    console.log(data);
+})/
 
 
-// function calc(a,result){
-//     result(a*a, a*a*a)
-// }
+function calc(a,result){
+    result(a*a, a*a*a)
+}
 
-// calc(10, (sq,cb)=>{
-//     console.log(sq);
-//     console.log(cb);
-// })
+calc(10, (sq,cb)=>{
+    console.log(sq);
+    console.log(cb);
+})
 
 
 function getst(id, data){
